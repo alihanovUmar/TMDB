@@ -1,0 +1,32 @@
+.moviList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.custom-pagination {
+  margin: 0 auto;
+  padding: 40px 0px 100px 0px;
+}
+
+.custom-pagination .MuiPaginationItem-root {
+  color: black;
+  background-color: #fff;
+}
+
+.custom-pagination .MuiPaginationItem-page.Mui-selected {
+  background-color: blue;
+  color: white;
+}
+
+.custom-pagination .MuiPaginationItem-root:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.custom-pagination .MuiPaginationItem-page.Mui-selected:hover {
+  background-color: blue;
+  color: white;
+}

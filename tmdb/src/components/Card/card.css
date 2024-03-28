@@ -1,0 +1,108 @@
+.moviCard {
+  list-style: none;
+  background-color: #ffffff56;
+  border-radius: 5px;
+  box-shadow: 0px 0px 35px 12px #ffffff56;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 275px;
+  height: 460px;
+}
+
+.moviCard a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.moviImg {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.moviImg:hover {
+  transform: scale(1.05);
+}
+
+.moviTitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.moviDate {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* modal */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.875);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.modalContent {
+  text-align: center;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+.modalImg {
+  max-width: 100%;
+  height: 450px;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.modalButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modalButton:hover {
+  background-color: #0056b3;
+}
+
+.modalInfo {
+  width: 500px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 200%;
+  letter-spacing: 0%;
+  padding: 5px;
+}
+
+.modalName {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 200%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
